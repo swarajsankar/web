@@ -1,0 +1,41 @@
+*{
+box-sizing:border-box;
+}
+body{
+margin:0;
+background:#3B8FA1;
+}
+nav{
+background:skyblue;
+width:100%;
+overflow:auto;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+li{
+float:left;
+}
+nav a{
+width:120px;
+display:block;
+text-decoration:none;
+text-align:center;
+background:skyblue;
+font-size:17px;
+color:WHITE;
+padding:20px 10px;
+font-family:"comic sans mc";
+}
+nav a:hover{
+background:skyblue;
+color:black;
+}
+p{
+color:#D6D6D6;
+}
+h1{
+color:#D6D6D6;
+}
