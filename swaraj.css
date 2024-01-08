@@ -1,0 +1,99 @@
+
+*{
+box-sizing:border-box;
+}
+body{
+margin:0;
+background:black;
+}
+nav{
+background:black;
+width:100%;
+overflow:auto;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+li{
+float:left;
+
+
+}
+nav a{
+width:120px;
+display:block;
+text-decoration:none;
+text-align:center;
+background:black;
+font-size:17px;
+color:WHITE;
+padding:20px 10px;
+font-family:"comic sans mc";
+}
+nav a:hover{
+color:black;
+}
+.contant{
+width:100%;
+margin: 100px auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.gallery{
+margin:0 10px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+width:250px;
+transition: 2s;
+}
+.gallery img{
+    display: block;
+width:100%;
+border-radius: 5px;
+height:auto;
+}
+
+img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    transition:1s ;
+
+
+}
+.info{
+padding:2px;
+text-align:center;
+}
+footer{
+padding:10px;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+color:white;
+}
+a{
+text-decoration:none;
+color:black;
+}
+nav ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:#008080;
+    position:absolute;
+    left:0;
+    bottom:0;
+    transition:0.5s;
+    }
+    nav ul li:hover::after{
+    width:100%;
+    }
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position:relative;
+    }
+
